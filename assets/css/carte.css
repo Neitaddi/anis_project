@@ -1,0 +1,45 @@
+/**********************/
+/* CARTE */
+/**********************/
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: max-content; */
+  background-color: #f2f2f3;
+  /* flex-basis: 20%; */
+  /* margin: 20px; */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
+}
+
+.img-carte {
+  object-fit: cover;
+  max-width: 200px;
+  min-width: 250px;
+}
+
+.carte-contenu {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.info-carte {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f2f2f3;
+  gap: 10px;
+}
+
+@media (max-width: 800px) {
+  .carte {
+    flex-basis: 100%;
+  }
+}
